@@ -95,11 +95,11 @@ export default function Formulario({ routeParams, onNavigate }) {
                             value={unidadeMedida}
                             onChange={(e) => setUnidadeMedida(e.target.value)}
                         >
-                            <option value="kg">kg</option>
-                            <option value="g">g</option>
-                            <option value="L">L</option>
-                            <option value="ml">ml</option>
-                            <option value="un">un</option>
+                            <option value="KG">KG</option>
+                            <option value="UNIDADE">UNIDADE</option>
+                            <option value="LITROS">LITROS</option>
+                            <option value="UNIDADE">UNIDADE</option>
+                            <option value="PACOTE">PACOTE</option>
                         </select>
                     </div>
 
